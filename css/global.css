@@ -1,89 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+:root {
+  --primary: #5a13ff;
+  --primary-light: #acbcff;
+  --blue: #aee2ff;
+  --background: #acbcff;
+}
 
 * {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-background {
+  background-color: var(--background);
+}
+
+.bg-primary {
+  background-color: var(--primary);
 }
 
 /* Navbar CSS */
-.navbar{
-    background-color: #e0a5a5;
-    padding: 5px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0px;
-    left: 0px;
+.navbar {
+  background-color: var(--primary);
+  padding: 10px 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
+
 .heading-primary {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.heading-secondary{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 10px 10px 10px 0px;
-    
-
+.heading-secondary {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 10px 10px 0px;
 }
 
-.center{
-    display: flex;
-    justify-content: center;
+.center {
+  display: flex;
+  justify-content: center;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-span{
-    color: crimson;
+.black {
+  color: black;
 }
 
-.black{
-    color: black;
+.yellow {
+  color: rgb(221, 224, 42);
 }
 
-.yellow{
-    color: rgb(221, 224, 42);
+.transparent {
+  background-color: transparent;
+  width: 50%;
+  color: white;
 }
 
-.transparent{
-    background-color: transparent;
-    width: 50%;
-    color: white;
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.submit-section input {
+  margin-right: 70px;
 }
 
-.blue{
-    color: blue;
-}
-.red{
-    color: red;
-}
-.white{
-    color: white;
-}
-.submit-section input{
-    margin-right: 70px;
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 43px;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 15px;
 }
 
-.btn{
-    background-color: black;
-    color: white;
-    padding: 10px 43px;
-    border-radius: 20px;
-    border: 2px solid rgb(255, 255, 255);
-    cursor: pointer;
-    transition: all 0.5s ease;
-    font-size: 15px;
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
 }
 
-.btn:hover{
-    background-color: white;
-    color: black;
-    border-color: black;
+.primary-btn {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 43px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 15px;
+}
+
+.primary-btn:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
 }

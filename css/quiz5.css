@@ -1,58 +1,77 @@
 body {
-    background: url(/assets/alvaro-reyes-4eTnTQle0Ks-unsplash.jpg) center center/cover no-repeat;
+  background: url(/assets/img/5.jpg) center/cover repeat;
 }
 
-#nav{
-    background-color: rgba(255, 255, 255, 0.41);
-    color: black;
-}
 .container {
-    margin: 60px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
 }
 
-.box hr{
-    height: 4px;
-    background-color: black;
+.box {
+  border: 2px solid rgba(255, 0, 0, 0);
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.634);
+  backdrop-filter: blur(10px);
 }
-
 
 p {
-    font-size: 2rem;
-}
-
-ul {
-    margin-left: 100px;
-}
-
-ul li a {
-    font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 img {
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    border-radius: 10px;
-    border: 2px solid antiquewhite;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.wrapper{
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.285);
-    border: 2px solid transparent;
-    border-radius: 10px;
-    transition: all 0.5s ease;
-    cursor: pointer;
+.input {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  margin: 10px;
+  color: white;
+  font-size: 1.5rem;
 }
 
-.wrapper:hover{
-    background-color: rgba(0, 0, 0, 0.812);
+p {
+  font-size: 2rem;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+ul li a {
+  font-size: 1.3rem;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid antiquewhite;
+}
+
+.wrapper {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.285);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.812);
 }

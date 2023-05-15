@@ -1,44 +1,49 @@
-body{
-    color: white;
+body {
+  color: white;
 }
 
-.container{
-    background: url('/assets/132439055-hip-hip-hooray-neon-text-vector-design-template-hip-hip-hooray-neon-logo-light-banner-design.webp') center center/cover;
-    background-color: rgba(255, 255, 255, 0.185);
-    display: flex;
-    padding: 91px;
+.container {
+  background: url("/assets/img/6.jpg") center center/cover;
+  background-color: rgba(255, 255, 255, 0.185);
+  display: flex;
+  padding: 91px;
 }
 
-.left{
-    background-color: rgba(0, 0, 0, 0.351);
-    margin: 5px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 30px;
-    font-size: 30px;
+.left {
+  border: 2px solid rgba(255, 0, 0, 0);
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.634);
+  backdrop-filter: blur(10px);
+  margin: 5px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
 }
 
-.right{
-    margin: 5px;
-    border: 2px solid transparent;
-    border-radius: 10px;
+.right {
+  margin: 5px;
+  border: 2px solid transparent;
+  border-radius: 10px;
 }
 
-.right img{
-    height: 300px;
-    width: 300px;
+.right img {
+  height: 300px;
+  width: 300px;
 }
 
-#claimBtn{
-    margin: 30px;
+#claimBtn {
+  margin: 30px;
 }
 
-.footer{
-    color: black   ;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.footer {
+  margin: 40px 10px;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
